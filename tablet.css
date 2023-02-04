@@ -1,0 +1,124 @@
+nav a {
+    color: var(--fontColorGreen);
+    text-decoration: none;
+    font-size: 1.9rem;
+}
+.ContenedorTituloCopy h1 {
+    font-size: 5.5rem;
+    line-height: 6rem;
+    font-weight: 500;
+}
+.ContenedorTituloCopy p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.Contenedor1 h2 {
+    font-size: 3rem;
+}
+.ContenedorPorqueElegirnos_h2 h2 {
+    font-size: 3rem;
+}
+.ContenedorPorqueElegirnos_lista li{
+    font-weight: 300;
+}
+.ContenedorPorqueElegirnos_h2{
+    padding-bottom: 3vh;
+}
+.Contenedor2 h2 {
+    font-size: 3.5rem;
+}
+.ContenedorPorqueCamisetas{
+    display: flex;
+    flex-direction: column;
+}
+.ContenedorPorqueCamisetas_h2 h2 {
+    font-size: 3rem;
+}
+.ContenedorPorqueCamisetas p {
+    font-weight: 300;
+}
+.ContenedorPorqueCamisetas .FotosContenedorPorqueCamisetas {
+    width: 75vw;
+    max-width: 478px;
+    max-height: 478px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.VideoContenedorPorqueCamisetas{
+    width: 70vw;
+    max-width: 478px;
+    max-height: 478px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.ContenedorTabla {
+    padding-bottom: 0.1vh;
+}
+.ContenedorTabla_Principal .ContenedorTabla_PrincipalTitulo {
+    font-size: 4rem;
+    margin-bottom: 3vh;
+}
+.ContenedorTabla_PrincipalFilas{
+    height: 73vh;
+}
+.InfoTablaIzquierda{
+    font-size: 1.9rem;
+}
+.InfoTablaDerecha{
+    font-size: 2rem;
+}
+.ContenedorTabla_PrincipalFilas p {
+    font-size: 1.5rem;
+}
+.NuestrosServiciosContenedorLogoServicios {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 773px;
+    margin: 0 auto;
+}
+.contenedorLogo1 {
+    width: 25vw;
+    height: auto;
+}
+.NuestrosServicios .logo1{
+    width: 10vw;
+    height: auto;
+    max-width: 77px;
+    max-height: 84px;
+}
+.NuestrosServiciosEncabezado {
+    width: 60vw;
+}
+.NuestrosServiciosEncabezado_h2{
+    font-size: 3.5rem;
+    text-align: left;
+    font-weight: 500;
+}
+.NuestrosServiciosEncabezado_p {
+    font-size: 2.2rem;
+    text-align: left;
+}
+.NuestrosServiciosCaja {
+    width: 90vw;
+    max-width: 686px;
+    max-height: 140px;
+}
+.NuestrosServiciosCaja h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.NuestrosServiciosCaja p{
+    font-size: 1.6rem;
+}
+.LogoFooter{
+    width: 10vw;
+    height: auto;
+    max-width: 77px;
+    max-height: 84px;
+}
+.FooterRedesSociales li a{
+    font-size: 2rem;
+    font-weight: 400;
+}

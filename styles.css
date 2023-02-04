@@ -1,0 +1,435 @@
+:root {
+    --backgroudColor: rgb(7, 7, 74); 
+    --backgroundColor1: linear-gradient(45deg, #0723d6,#021d46);
+    --backgroudColor2: rgb(1, 1, 30); 
+    --backgroudColor3: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    ; 
+    --fontColorLight: rgb(208, 236, 206);
+    --fontColorLight1: rgb(206, 231, 236);
+    --fontColorGreen: rgb(80, 232, 95);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.IniciarWhatsApp{
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    width: 10vw;
+    height: auto;
+    opacity: 0.5;
+}
+html{
+    font-size: 62.5%;
+    background: var(--backgroundColor1);
+    font-family: 'Roboto', sans-serif;
+    max-width: 100vw;
+}
+header{
+    display: flex;
+    align-items: center;
+    background: var(--backgroudColor2);
+}
+.ContenedorLogoStampArtCorp{
+    display: grid;
+    width: 15vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.LogoStampArtCorp{
+    width: 10vw;
+    height: auto;
+    max-height: 46px;
+    max-width: 46px;
+    justify-content: center;
+    align-items: center;
+}
+.main_nav{
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+}
+nav a{
+    color: var(--fontColorGreen);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+main{
+    width: 100vw;
+}
+.ContenedorTituloCopy{
+    background: var(--backgroundColor1);
+    height: 45vh;
+    width: 100vw;
+    align-items: center;
+}
+.ContenedorTituloCopy h1{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center;
+    color: var(--fontColorLight1);
+}
+.ContenedorTituloCopy p{
+    color: var(--fontColorLight);
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1vh;
+    color: var(--fontColorLight);
+}
+.ContenedorTituloCopy_Texto1 .Boton_ContenedorTituloCopy{
+    position: absolute;
+    top: 50vh;
+    display: block;
+    color: var(--fontColorLight);
+    margin-top: 1vh;
+    padding: 2vh;
+    height: 7vh;
+    background: var(--backgroudColor3);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 0, 1);
+    border: none;
+    font-size: 1.4rem;
+}
+.Boton_ContenedorTituloCopy span{
+    display: inline-block;
+    width: 3vw;
+    height: auto;
+    margin-left: 0vw;
+}
+.ContenedorTituloCopy_Texto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 44vh;
+    width: 90vw;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+}
+.Contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding-top: 2vh;
+    background-color: var(--backgroudColor);
+    padding-bottom: 3vh;
+}
+.Contenedor1 h2{
+    color: var(--fontColorGreen);
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 2vh;
+    font-size: 2rem;
+}
+.Contenedor1_Figure {
+    display: flex;
+    height:auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.FotosContenedor1{
+    width: 80vw;
+    height: auto;
+    border-radius: 65px;
+    margin-left: 8vw ;
+    margin-top: 1vh;
+    scroll-snap-align: center;
+}
+.FotosContenedor1:last-child {
+    margin-right: 8vw;
+}
+.ContenedorPorqueElegirnos{
+    width: 100vw;
+    height: auto;
+}
+.ContenedorPorqueElegirnos{
+    margin-top: 5vh;
+}
+.ContenedorPorqueElegirnos_h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.ContenedorPorqueElegirnos_h2 h2{
+    width: 80vw;
+    color: var(--fontColorGreen);
+    text-align: center;
+    font-size: 2.4rem;
+}
+.ContenedorPorqueElegirnos_lista{
+    color: var(--fontColorLight1);
+    width: 85vw;
+    margin: 0 auto;
+}
+.ContenedorPorqueElegirnos_lista img {
+    width: 80vw;
+    height: auto;
+    border-radius: 30px;
+}
+.ContenedorPorqueElegirnos_lista li{
+    list-style: decimal;
+    font-size: 1.8rem;
+    text-justify: auto;
+    margin-bottom: 2.5vh;
+    font-weight: 300;
+}
+.iconoFlechaVerde{
+    width: 10vw;
+    height: auto;
+}
+.Contenedor2{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    padding-top: 2vh;
+    background-color: var(--backgroudColor);
+    max-height: 330px;
+    padding-bottom: 3vh;
+}
+.Contenedor2 h2 {
+    width: 80vw;
+    color: var(--fontColorGreen);
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin: 0 auto;
+}
+.Contenedor2_Figure {
+    display: flex;
+    height: 50vh;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.FotosContenedor2{
+    width: 80vw;
+    height: auto;
+    border-radius: 35px;
+    margin-left: 8vw ;
+    margin-top: 1vh;
+    scroll-snap-align: center;
+    max-height: 255px;
+}
+.FotosContenedor2:last-child {
+    margin-right: 8vw;
+}
+.ContenedorPorqueCamisetas{
+    width: 100vw;
+    height: auto;
+    padding-bottom: 5vh;
+}
+.ContenedorPorqueCamisetas_h2{
+    display: flex;
+    padding-top: 2vh;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.ContenedorPorqueCamisetas_h2 h2{
+    color: var(--fontColorGreen);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.ContenedorPorqueCamisetas_h2 .iconoFlechaVerde{
+    display: grid;
+    width: 10vw;
+    height: auto;
+    margin-left: 3vw;
+}
+.ContenedorPorqueCamisetas p {
+    width: 95vw;
+    margin: 0 auto;
+    color: var(--fontColorLight1);
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    padding-top: 2vh;
+    font-weight: 300;
+}
+.ContenedorPorqueCamisetas .FotosContenedorPorqueCamisetas{
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 200px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    max-height: 500px;
+    max-width: 500px ;
+    max-width: 80vw;
+}
+.VideoContenedorPorqueCamisetas{
+    width: 90vw;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+.ContenedorTabla{
+    width: 100vw;
+    height: auto;
+    margin-bottom: 4vh;
+}
+.ContenedorTabla_Principal{
+    width: 90vw;
+    height: auto;
+    min-width: 250px;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+    margin: 0 auto;
+}
+.ContenedorTabla_Principal .ContenedorTabla_PrincipalTitulo{
+    margin-bottom: 1vh;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--fontColorGreen);
+    text-align: center;
+}
+.ContenedorTabla_PrincipalFilas{
+    width: 90%;
+    min-width: 245px;
+    max-width: 400px;
+    height: 50vh;
+    margin: 0 auto; 
+    background-color: rgb(8, 57, 57);
+    border-radius: 0 20px;
+    margin-bottom: 3vh;   
+}
+.ContenedorTabla_PrincipalFilas table{
+    width: 100%;
+    height: 100%;
+}
+.InfoTablaIzquierda{
+    color: var(--fontColorLight1);
+    width: 80%;
+    text-align: center;
+    font-size: 1.45rem;
+    font-weight: 300;
+    background-color: rgb(2, 42, 42);
+    border-radius: 0 15px;
+}
+.InfoTablaDerecha{
+    color: var(--fontColorLight1);
+    width: 15%;
+    margin: 0 auto;
+}
+.ContenedorTabla_PrincipalFilas p{
+    color: var(--fontColorLight);
+    margin-top: 1vh;
+    text-align: center;
+}
+.NuestrosServicios {
+    background-color: var(--backgroudColor);
+    padding-bottom: 3vh;
+}
+.NuestrosServicios .contenedorLogo1{
+    display: flex;
+    padding-top: 2vh;
+}
+.NuestrosServicios .logo1 {
+    width: 25vw;
+    height: auto;
+    margin: 0 auto;
+}
+.NuestrosServiciosEncabezado_h2{
+    color: var(--fontColorGreen);
+    text-align: center;
+    font-weight: 500;
+}
+.NuestrosServiciosEncabezado_p{
+    color: var(--fontColorLight1);
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.16rem;
+}
+.NuestrosServiciosCaja{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 2vh;
+    padding: 3vw;
+    background-color: rgb(2, 42, 42);
+    border-radius: 0 15px;
+}
+.NuestrosServiciosCaja h3{
+    color: var(--fontColorGreen);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.NuestrosServiciosCaja p {
+    color: var(--fontColorLight1);
+    font-size: 1.3rem;
+    padding-top: 0.75rem;
+    font-weight: 300;
+}
+.NuestrosServiciosIconoTiempo{
+    width: 10vw;
+    height: auto;
+}
+.ContenedorVideos {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: calc(30vh + 10px);
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scroll-snap-type: x proximity;
+}
+.VideoAds{
+    display: flex;
+    width: auto;
+    height: 30vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    border-radius: 50px;
+}
+.ContenedorVideos :last-child{
+    margin-right: 14vw;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--backgroudColor);
+    display: flex;
+    align-items: center;
+}
+.FooterRedesSociales{
+    width: 85vw;
+    height: auto;
+}
+.FooterRedesSociales ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.FooterRedesSociales li{
+    list-style: none;
+}
+.FooterRedesSociales li a{
+    color: var(--fontColorGreen);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.FooterContenedorLogo{
+    display: grid;
+    margin-left: 3vw;
+}
+.LogoFooter{
+    width: 15vw;
+    height: auto;
+}

@@ -1,0 +1,89 @@
+.LogoStampArtCorp {
+    width: 6vw;
+    height: auto;
+    max-width: 62px;
+    max-height: 67px;
+}
+nav a {
+    font-size: 2.7rem;
+    font-weight: 400;
+}
+.ContenedorTituloCopy h1 {
+    font-size: 9.5rem;
+    line-height: 8rem;
+    font-weight: 300;
+}
+.FotosContenedor1 {
+    width: 600px;
+    height: auto;
+}
+.ContenedorPorqueElegirnos_h2 h2 {
+    font-size: 6rem;
+    font-weight: 400;
+}
+.ContenedorPorqueElegirnos_lista li {
+    font-size: 3rem;
+}
+.Contenedor2 {
+    height: 600px;
+    max-height: 600px;
+}
+.Contenedor2_Figure {
+    height: auto;
+}
+.FotosContenedor2{
+    width: 500px;
+    height: auto;
+    max-height: 550px;
+}
+
+.ContenedorPorqueCamisetas_h2 h2 {
+    font-size: 6rem;
+}
+.ContenedorPorqueCamisetas p {
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.ContenedorTabla_PrincipalFilas{
+    width: 90%;
+    min-width: 245px;
+    max-width: 800px;
+    height: 50vh;
+    margin: 0 auto; 
+    background-color: rgb(8, 57, 57);
+    border-radius: 0 20px;
+    margin-bottom: 3vh;   
+}
+.InfoTablaDerecha{
+    font-size: 2rem;
+    padding-left: 3vw;
+}
+.InfoTablaIzquierda {
+    font-size: 3rem;
+    font-weight: 300;
+}
+.ContenedorTabla_PrincipalFilas p {
+    font-size: 2rem;
+}
+.NuestrosServiciosEncabezado_h2 {
+    font-weight: 400;
+}
+.NuestrosServiciosCaja {
+    max-height: 300px;
+}
+.NuestrosServiciosCaja h3 {
+    font-size: 4rem;
+}
+.NuestrosServiciosCaja p {
+    font-size: 2.5rem;
+}
+.IniciarWhatsApp{
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    width: 6vw;
+    height: auto;
+    opacity: 0.5;
+}
+/* Tb101cEr */
