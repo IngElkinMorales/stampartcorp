@@ -13,6 +13,7 @@ nav a {
     line-height: 8rem;
     font-weight: 300;
 }
+
 .FotosContenedor1 {
     width: 600px;
     height: auto;
@@ -25,8 +26,8 @@ nav a {
     font-size: 3rem;
 }
 .Contenedor2 {
-    height: 600px;
-    max-height: 600px;
+    height: 650px;
+    max-height: 700px;
 }
 .Contenedor2_Figure {
     height: auto;

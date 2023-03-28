@@ -12,6 +12,22 @@ nav a {
     font-size: 2rem;
     font-weight: 300;
 }
+.Contenedor1{
+    height: 750px;
+    max-height: none;
+}
+.Contenedor1_Figure {
+    min-height: 400px;
+    height: 750px;
+}
+.Contenedor1_Figure_Camiseta .FotosContenedor1{
+    width: 480px;
+    height: auto;
+    max-height: none;
+}
+.Contenedor1_Figure_Camiseta .textos_DescriptivosyPrecio{
+    font-size: large;
+}
 .Contenedor1 h2 {
     font-size: 3rem;
 }
@@ -23,6 +39,26 @@ nav a {
 }
 .ContenedorPorqueElegirnos_h2{
     padding-bottom: 3vh;
+}
+.Contenedor2 {
+    height: 580px;
+    max-height: 600px;
+}
+.Contenedor2 h2 {
+    width: 100%;
+}
+.Contenedor2_Figure_descripcion .textos_DescriptivosyPrecio{
+    font-size: medium;
+    margin-left: 100px;
+}
+.Contenedor2_Figure{
+    height: 700px;
+    max-height: 1000px;
+}
+.FotosContenedor2{
+    width: 450px;
+    height: auto;
+    max-height: none;
 }
 .Contenedor2 h2 {
     font-size: 3.5rem;
