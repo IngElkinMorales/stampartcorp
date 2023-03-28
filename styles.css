@@ -123,6 +123,41 @@ main{
     background-color: var(--backgroudColor);
     padding-bottom: 3vh;
 }
+.Contenedor1 .Contenedor1_Figure_Camiseta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.Contenedor1 .Contenedor1_Figure_Camiseta img {
+    border: 2px solid var(--fontColorLight1);
+}
+.Contenedor1 .Contenedor1_Figure .Contenedor1_Figure_descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--fontColorLight);
+    font-weight: 300;
+    font-size: small;
+    margin: 5px;
+}
+.Contenedor1 .Contenedor1_Figure .Contenedor1_Figure_descripcion .textos_DescriptivosyPrecio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.Contenedor1 .Contenedor1_Figure .Contenedor1_Figure_descripcion .IniciarWhatsAppProducto{
+    width: 32px;
+    border: none;
+    margin-left: 6px;
+    padding: 3px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 1px var(--fontColorGreen);
+}
 .Contenedor1 h2{
     color: var(--fontColorGreen);
     text-align: center;
@@ -130,8 +165,9 @@ main{
     margin-bottom: 2vh;
     font-size: 2rem;
 }
-.Contenedor1_Figure {
+main .Contenedor1 .Contenedor1_Figure {
     display: flex;
+    flex-direction: row;
     height:auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -140,12 +176,13 @@ main{
 .FotosContenedor1{
     width: 80vw;
     height: auto;
+    max-height: 260px;
     border-radius: 65px;
     margin-left: 8vw ;
     margin-top: 1vh;
     scroll-snap-align: center;
 }
-.FotosContenedor1:last-child {
+.Contenedor1_Figure:last-child {
     margin-right: 8vw;
 }
 .ContenedorPorqueElegirnos{
@@ -194,14 +231,14 @@ main{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 60vh;
+    height: 355px;
     padding-top: 2vh;
     background-color: var(--backgroudColor);
-    max-height: 330px;
+    max-height: 360px;
     padding-bottom: 3vh;
 }
 .Contenedor2 h2 {
-    width: 80vw;
+    width: 320px;
     color: var(--fontColorGreen);
     text-align: center;
     font-size: 2.4rem;
@@ -210,10 +247,37 @@ main{
 }
 .Contenedor2_Figure {
     display: flex;
-    height: 50vh;
+    height: 320px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+}
+.Contenedor2_Figure_Pocillo{
+    display: flex;
+    flex-direction: column;
+}
+.Contenedor2_Figure_Pocillo .Contenedor2_Figure_descripcion{
+    display: flex;
+    flex-direction: row;
+}
+
+.Contenedor2_Figure_Pocillo .textos_DescriptivosyPrecio{
+    display: flex;
+    flex-direction: column;
+    color: var(--fontColorLight);
+    margin-left: 70px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.Contenedor2_Figure_descripcion .IniciarWhatsAppProducto{
+    width: 32px;
+    border: none;
+    margin-left: 6px;
+    padding: 3px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 1px var(--fontColorGreen);
 }
 .FotosContenedor2{
     width: 80vw;
