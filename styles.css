@@ -231,10 +231,10 @@ main .Contenedor1 .Contenedor1_Figure {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 355px;
+    height: 450px;
     padding-top: 2vh;
     background-color: var(--backgroudColor);
-    max-height: 360px;
+    max-height: 480px;
     padding-bottom: 3vh;
 }
 .Contenedor2 h2 {

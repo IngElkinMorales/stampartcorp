@@ -13,7 +13,7 @@ nav a {
     font-weight: 300;
 }
 .Contenedor1{
-    height: 750px;
+    height: 800px;
     max-height: none;
 }
 .Contenedor1_Figure {
@@ -41,8 +41,8 @@ nav a {
     padding-bottom: 3vh;
 }
 .Contenedor2 {
-    height: 580px;
-    max-height: 600px;
+    height: 630px;
+    max-height: 680px;
 }
 .Contenedor2 h2 {
     width: 100%;
